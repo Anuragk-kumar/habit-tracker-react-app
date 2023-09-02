@@ -14,7 +14,6 @@ Insert gif or link to demo
 - Tech Stack Used
 - Getting Started
 - Features
-- File Structure
 - Components
 - Reducers
 - Usage
@@ -74,39 +73,6 @@ Open your web browser and visit http://localhost:3000 to see the application in 
 - View and track weekly progress for each habit.
 - Navigate between the Home and Weekly views using the top navigation bar.
 
-## File Structure
-
-src/
-|-- action/
-|   |-- index.js
-|
-|-- components/
-|   |-- today/
-|   |   |-- ActionButton.jsx
-|   |   |-- HabitCard.jsx
-|   |   |-- Home.jsx
-|   |   |-- TopNav.jsx
-|   |
-|   |-- week/
-|       |-- ActionDayButton.jsx
-|       |-- SingleDay.jsx
-|       |-- Weekly.jsx
-|       |-- WeeklyCard.jsx
-|
-|-- reducers/
-|   |-- habitReducer.js
-|   |-- index.js
-|
-|-- styles/
-|   |-- home.module.css
-|   |-- topnav.module.css
-|   |-- weekly.module.css
-|
-|-- App.jsx
-|-- index.js
-|
-|-- README.md
-|-- ...
 
 ## Reducers
 - habitReducer.js: Reducer containing actions and logic related to habits, including adding, deleting, and updating habit statuses.
