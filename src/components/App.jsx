@@ -6,6 +6,7 @@ import Weekly from "./week/Weekly";
 
 
 
+/* The `App` function is a React component that returns JSX (JavaScript XML) code. */
 function App() {
   return (
     <div className="App">
